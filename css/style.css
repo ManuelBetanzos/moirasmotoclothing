@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0 px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+
+/*NAV*/
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 0px 0px 0px 10px;
+    
+}
+
+
+
+.nav__search {
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+.nav__input {
+    border-radius: 5px;
+}
+
+
+/*Main Index*/
+
+
+.mainbttn__position{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+    
+    
+    
+.mainbttn--hover:hover{
+    transform: scale(1.1);
+}
+
+.main__blog-title{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.img_size{
+    width: 100%;
+}
+
+.video_size{
+    width: 100%;
+}
+
+
+/*Main Productos*/
+
+/*Galería de productos*/
+
+
+/*Main Quienes Somos*/
+
+
+/*Main Contacto*/
+
+/*footer*/
+
+.footer{
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__about-text{
+    display: flex;
+}
+
+.footer--textsize{
+    font-size: small;
+}
