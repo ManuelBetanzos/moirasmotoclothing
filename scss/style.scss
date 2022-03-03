@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+@import "_base";
+@import "_header";
+@import "_index";
+@import "_footer";
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 0px 0px 0px 10px;
+    
+}
+
+// General CSS for main image and video
+.img_size{
+    width: 100%;
+}
+
+.video_size{
+    width: 100%;
+}

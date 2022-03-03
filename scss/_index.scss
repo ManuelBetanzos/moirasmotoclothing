@@ -1,0 +1,21 @@
+// Index CSS
+.main{
+    .mainbttn__position{
+        display: flex;
+        align-items: flex-end;
+        justify-content: end;
+    }
+        
+    .mainbttn--hover:hover{
+        transform: scale(1.1);
+    }
+    
+    .main__blog-title{
+        background-color: black;
+        color:white;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
