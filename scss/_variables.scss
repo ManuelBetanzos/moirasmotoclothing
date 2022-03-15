@@ -1,0 +1,10 @@
+// Color - MAPS
+$colors:(
+    "primario": green,
+    "secundario": purple,
+    "titulos":violet,
+    );
+
+@mixin colores__textos{
+    color: pink;
+}

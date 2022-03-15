@@ -55,3 +55,15 @@ nav .nav__input {
 
 .video_size {
   width: 100%; }
+
+.contacto__parrafo1 {
+  color: green; }
+
+.contacto__parrafo2 {
+  color: purple; }
+
+.contacto__parrafo3 {
+  color: violet; }
+
+.contacto__parrafo-mixin {
+  color: pink; }

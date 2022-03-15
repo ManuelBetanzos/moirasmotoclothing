@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+@import "_variables";
 @import "_base";
 @import "_header";
 @import "_index";
@@ -19,4 +20,20 @@
 
 .video_size{
     width: 100%;
+}
+
+
+// USO DE MAPA $colors en variables en página contacto
+.contacto__parrafo1{
+    color: map-get($colors, primario)
+}
+.contacto__parrafo2{
+    color: map-get($colors, secundario)
+}
+.contacto__parrafo3{
+    color: map-get($colors, titulos)
+}
+
+.contacto__parrafo-mixin{
+    @include colores__textos()
 }
