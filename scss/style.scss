@@ -22,18 +22,3 @@
     width: 100%;
 }
 
-
-// USO DE MAPA $colors en variables en página contacto
-.contacto__parrafo1{
-    color: map-get($colors, primario)
-}
-.contacto__parrafo2{
-    color: map-get($colors, secundario)
-}
-.contacto__parrafo3{
-    color: map-get($colors, titulos)
-}
-
-.contacto__parrafo-mixin{
-    @include colores__textos()
-}
