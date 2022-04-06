@@ -39,12 +39,7 @@
                             <a class="nav-link" href="quienes_somos.html">¿Quiénes somos?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto?</a>
-                        </li>
-                        <li>
-                            <form class="nav-item nav__search">
-                                <input class="nav__input" type="text" placeholder="buscar...">
-                            </form>
+                            <a class="nav-link" href="contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -136,10 +131,55 @@
                         <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">FAQ's</a>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                            data-bs-target="#faqsmodal">
+                            FAQ's
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="faqsmodal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">FAQ's</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt libero
+                                            voluptate, labore debitis quas pariatur consequuntur quibusdam dolore
+                                            accusamus reiciendis earum voluptatem ratione facilis vero fuga, consectetur
+                                            perferendis laudantium omnis.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Compras</a>
+                    <li class="nav-item ms-3">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                            data-bs-target="#comprasmodal">
+                            Compras
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="comprasmodal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Compras</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Muy pronto nuestro carrito de compras</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>

@@ -39,12 +39,7 @@
                             <a class="nav-link" href="quienes_somos.html">¿Quiénes somos?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="contacto.html">Contacto?</a>
-                        </li>
-                        <li>
-                            <form class="nav-item nav__search">
-                                <input class="nav__input" type="text" placeholder="buscar...">
-                            </form>
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -52,8 +47,42 @@
         </nav>
     </header>
 
-    <!-- Main con Imagen Principal y texto superpuesto acerca de la marca seguido de un video de campaña y sección de blog-->
-    <main>
+    <!-- Main con Formulario a dentro de una CARD sin el límite de tamaño-->
+    <main class="container">
+        <h3 class="text-center mt-4 mb-4 ">Contáctanos para que podamos ayudarte</h3>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="../img/historia4.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <fieldset>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">@</span>
+                                <input type="text" class="form-control"
+                                    placeholder="¡Usuario en Instagram o Tik Tok para ver tus fotos!"
+                                    aria-label="Username" aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="01030405">
+                                <span class="input-group-text">¿Cómo podemos llamarte?</span>
+                            </div>
+
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="¿Cuál es tu correo electrónico?">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-text">Déjanos tu mensaje</span>
+                                <textarea class="form-control" aria-label="With textarea"></textarea>
+                            </div>
+                            <input class="mt-2 bg-dark text-white" type="submit" value="Enviar!">
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
 
 
@@ -79,10 +108,54 @@
                         <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">FAQ's</a>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#faqsmodal">
+                            FAQ's
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="faqsmodal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">FAQ's</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt libero
+                                            voluptate, labore debitis quas pariatur consequuntur quibusdam dolore
+                                            accusamus reiciendis earum voluptatem ratione facilis vero fuga, consectetur
+                                            perferendis laudantium omnis.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Compras</a>
+                    <li class="nav-item ms-3">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                            data-bs-target="#comprasmodal">
+                            Compras
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="comprasmodal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Compras</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Muy pronto nuestro carrito de compras</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>

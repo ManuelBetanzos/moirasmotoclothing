@@ -11,7 +11,8 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
     <meta name="keywords" content="motociclismo, rutas, turismo, historias, aventura, offroad, motoaventura">
-    <meta name="description" content="Conoce las historias de motociclistas como tu, los lugares que han conocido y sobre todo la ropa que han usado">
+    <meta name="description"
+        content="Conoce las historias de motociclistas como tu, los lugares que han conocido y sobre todo la ropa que han usado">
 </head>
 
 <body>
@@ -39,12 +40,7 @@
                             <a class="nav-link" href="quienes_somos.html">¿Quiénes somos?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto?</a>
-                        </li>
-                        <li>
-                            <form class="nav-item nav__search">
-                                <input class="nav__input" type="text" placeholder="buscar...">
-                            </form>
+                            <a class="nav-link" href="contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -63,42 +59,120 @@
                     <div class="card-body">
                         <h5 class="card-title">Entrada de Blog 1</h5>
                         <p class="card-text">Intro y texto de la entrada</p>
-                        <a href="#" class="btn btn-dark btn-lg" role="button" aria-disabled="true">Continuar Leyendo</a>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#blog1">
+                            Continuar Leyendo
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="blog1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Entrada de Blog 1</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="../img/blog1.jpg" class="img-fluid" alt="fotoblog3">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt libero
+                                            voluptate, labore debitis quas pariatur consequuntur quibusdam dolore
+                                            accusamus reiciendis earum voluptatem ratione facilis vero fuga, consectetur
+                                            perferendis laudantium omnis.</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="card mb-3" style="max-width: auto;">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="../img/blog2.jpg" class="img-fluid rounded-start" alt="imagenblog2">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Entrada de Blog 2</h5>
-                        <p class="card-text">Intro y texto de la entrada</p>
-                        <a href="#" class="btn btn-dark btn-lg" role="button" aria-disabled="true">Continuar Leyendo</a>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div class="card mb-3" style="max-width: auto;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../img/blog2.jpg" class="img-fluid rounded-start" alt="imagenblog2">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Entrada de Blog 2</h5>
+                            <p class="card-text">Intro y texto de la entrada</p>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#blog2">
+                                Continuar Leyendo
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="blog2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Entrada de Blog 2</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="../img/blog2.jpg" class="img-fluid" alt="fotoblog3">
+                                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt libero
+                                                voluptate, labore debitis quas pariatur consequuntur quibusdam dolore
+                                                accusamus reiciendis earum voluptatem ratione facilis vero fuga,
+                                                consectetur
+                                                perferendis laudantium omnis.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="card mb-3" style="max-width: auto;">
-            <div class="row g-0">
-                <div class="col-md-4">
-                    <img src="../img/blog3.jpg" class="img-fluid rounded-start" alt="imagenblog3">
-                </div>
-                <div class="col-md-8">
-                    <div class="card-body">
-                        <h5 class="card-title">Entrada de Blog 3</h5>
-                        <p class="card-text">Intro y texto de la entrada</p>
-                        <a href="#" class="btn btn-dark btn-lg" role="button" aria-disabled="true">Continuar Leyendo</a>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <div class="card mb-3" style="max-width: auto;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="../img/blog3.jpg" class="img-fluid rounded-start" alt="imagenblog3">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Entrada de Blog 3</h5>
+                                <p class="card-text">Intro y texto de la entrada</p>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                                    data-bs-target="#blog3">
+                                    Continuar Leyendo
+                                </button>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="blog3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Entrada de Blog 3</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="../img/blog3.jpg" class="img-fluid" alt="fotoblog3">
+                                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
+                                                    libero
+                                                    voluptate, labore debitis quas pariatur consequuntur quibusdam
+                                                    dolore
+                                                    accusamus reiciendis earum voluptatem ratione facilis vero fuga,
+                                                    consectetur
+                                                    perferendis laudantium omnis.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
     </main>
 
@@ -125,10 +199,54 @@
                         <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">FAQ's</a>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#faqsmodal">
+                            FAQ's
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="faqsmodal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">FAQ's</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt libero
+                                            voluptate, labore debitis quas pariatur consequuntur quibusdam dolore
+                                            accusamus reiciendis earum voluptatem ratione facilis vero fuga, consectetur
+                                            perferendis laudantium omnis.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Compras</a>
+                    <li class="nav-item ms-3">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                            data-bs-target="#comprasmodal">
+                            Compras
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="comprasmodal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Compras</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Muy pronto nuestro carrito de compras</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>

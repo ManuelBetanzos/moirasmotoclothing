@@ -11,7 +11,8 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <meta name="keywords" content="motociclismo, ropa, aventura, offroad, motoaventura">
-    <meta name="description" content="Somos una marca de ropa para motociclistas intrépidos que buscan una nueva forma de ver la vida">
+    <meta name="description"
+        content="Somos una marca de ropa para motociclistas intrépidos que buscan una nueva forma de ver la vida">
 </head>
 
 <body>
@@ -39,12 +40,7 @@
                             <a class="nav-link" href="pages/quienes_somos.html">¿Quiénes somos?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pages/contacto.html">Contacto?</a>
-                        </li>
-                        <li>
-                            <form class="nav-item nav__search">
-                                <input class="nav__input" type="text" placeholder="buscar...">
-                            </form>
+                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -57,7 +53,8 @@
         <div class="card bg-light text-white">
             <img class="card-img" src="img/mainimg.jpg" alt="Card image">
             <div class="card-img-overlay mainbttn__position">
-                <a href="pages/productos.html" class="btn btn-dark btn-lg mainbttn--hover" role="button" aria-disabled="true">Ve a nuestro Lookbook</a>
+                <a href="pages/productos.html" class="btn btn-dark btn-lg mainbttn--hover" role="button"
+                    aria-disabled="true">Ve a nuestro Lookbook</a>
             </div>
         </div>
         <div>
@@ -103,30 +100,77 @@
                     </a>
                     <h3>Moiras</h3>
                 </div>
-                <p class="footer--textsize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum possimus fuga et vitae similique eum, earum cum tempora eos quae tenetur consequuntur doloribus alias veritatis optio voluptatem. Porro, earum voluptatibus.</p>
+                <p class="footer--textsize">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum possimus fuga
+                    et vitae similique eum, earum cum tempora eos quae tenetur consequuntur doloribus alias veritatis
+                    optio voluptatem. Porro, earum voluptatibus.</p>
             </div>
-    
+
             <div class="col-md-4 col-sm-12">
                 <ul class="nav justify-content-center footer__nav">
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="pages/contacto.html">Contacto</a>
+                        <a class="nav-link" aria-current="page" href="pages/contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">FAQ's</a>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                            data-bs-target="#faqsmodal">
+                            FAQ's
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="faqsmodal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">FAQ's</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt libero
+                                            voluptate, labore debitis quas pariatur consequuntur quibusdam dolore
+                                            accusamus reiciendis earum voluptatem ratione facilis vero fuga, consectetur
+                                            perferendis laudantium omnis.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Compras</a>
+                    <li class="nav-item ms-3">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal"
+                            data-bs-target="#comprasmodal">
+                            Compras
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="comprasmodal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Compras</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Muy pronto nuestro carrito de compras</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
-                  </ul>
+                </ul>
             </div>
-    
+
             <div class="col-md-4 col-sm-12">
                 <form>
                     <fieldset>
-                            <legend>Suscríbete a nuestro Newsletter</legend>     
-                            <label for="">Email</label>
-                            <input type="email">
-                            <input type="submit" value="Registro">
+                        <legend>Suscríbete a nuestro Newsletter</legend>
+                        <label for="">Email</label>
+                        <input type="email">
+                        <input type="submit" value="Registro">
                     </fieldset>
                 </form>
             </div>
